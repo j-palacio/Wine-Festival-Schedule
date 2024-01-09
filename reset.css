@@ -1,0 +1,86 @@
+/* reset.css */
+
+/* Box sizing rules */
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+/* Remove default margin and padding */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dd,
+ol,
+ul,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
+/* Remove list styles (bullets and numbering) */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Remove hyperlinks underline and change color */
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* Remove focus outline for mouse users, retain for keyboard users */
+a:focus {
+    outline: none;
+}
+
+/* Reset some styles for consistent typography */
+body,
+button,
+input,
+select,
+textarea {
+    font-family: 'Arial', sans-serif;
+}
+
+/* Remove default table border spacing */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Optionally set a base font size and line height */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Reset styles for header, footer, and container */
+header,
+footer,
+.container {
+    margin: 0;
+    padding: 0;
+}
+
+/* Reset styles for th and td */
+th,
+td {
+    border: none;
+}
+
+/* Additional styles for specific elements can be added as needed */
